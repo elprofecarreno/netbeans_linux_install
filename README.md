@@ -1,21 +1,24 @@
-# APACHE NETBEANS LINUX INSTALL
+# INSTALACIÓN DE APACHE NETBEANS EN LINUX
 
-To install Apache NetBeans 31 with Oracle JDK 26, execute the following commands:
+Para instalar Apache NetBeans 31 con Oracle JDK 26, ejecuta los siguientes comandos:
 
 ```shell
 chmod +x install.sh
 ./install.sh
 ```
 
-To uninstall:
+## Configuración (`config.env`)
+
+Puedes personalizar la versión y las URLs de descarga para NetBeans y el JDK editando `config.env`:
+
+- `URL_NETBEANS`: URL para descargar el paquete zip de Apache NetBeans.
+- `URL_JDK`: URL para descargar el paquete tar.gz del JDK.
+
+Para desinstalar:
 
 ```shell
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
 
-![01.png](./img/01.png)
-
-![02.png](./img/02.png)
-
-![03.png](./img/03.png)
+![01.png](./img/netbeans.png)
