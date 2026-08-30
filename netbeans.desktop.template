@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Apache NetBeans
+Comment=Apache NetBeans IDE
+Exec=$HOME/netbeans/bin/netbeans
+Icon=$HOME/netbeans/nb/netbeans.png
+Terminal=false
+Type=Application
+Categories=Development;IDE;Java;
